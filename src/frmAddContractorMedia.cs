@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
-namespace ais
+namespace Ais
 {
     public partial class frmAddContractorMedia : Form
     {

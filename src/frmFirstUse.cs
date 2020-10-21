@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
-namespace ais
+namespace Ais
 {
     public partial class frmFirstUse : Form
     {

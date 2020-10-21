@@ -1,4 +1,4 @@
-﻿namespace ais
+﻿namespace Ais
 {
     partial class frmInfo
     {

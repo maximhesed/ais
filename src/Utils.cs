@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
-namespace ais
+namespace Ais
 {
     internal sealed class Utils
     {

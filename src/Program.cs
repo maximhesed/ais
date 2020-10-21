@@ -1,4 +1,4 @@
-﻿namespace ais
+﻿namespace Ais
 {
     using System;
     using System.Windows.Forms;

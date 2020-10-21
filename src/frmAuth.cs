@@ -6,7 +6,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace ais
+namespace Ais
 {
     public partial class frmAuth : Form
     {
@@ -140,7 +140,7 @@ namespace ais
 
                                 break;
 
-                            case "Seniour manager":
+                            case "Senior manager":
                                 constructor.EnableLeads();
                                 constructor.AddContextMenuEntity("lstLeads", new string[] { "info", "remove" });
                                 constructor.EnableMenuAdd(new string[] { "Lead" });
@@ -218,7 +218,7 @@ namespace ais
 
                                 break;
 
-                            case "Seniour manager":
+                            case "Senior manager":
                                 constructor.EnableContractors(new string[] { "Production" });
                                 constructor.AddContextMenuEntity("lstContractors", new string[] { "info", "remove" });
                                 constructor.EnableMenuAdd(new string[] { "Contractor" });
@@ -249,7 +249,7 @@ namespace ais
 
                                 break;
 
-                            case "Seniour manager":
+                            case "Senior manager":
                                 constructor.EnableStock();
                                 constructor.AddContextMenuEntity("lstStock", new string[] { "info", "remove" });
                                 constructor.EnableMenuAdd(new string[] { "Good" });

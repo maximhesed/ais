@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
-namespace ais
+namespace Ais
 {
     public partial class frmAddEmployee : Form
     {
@@ -84,7 +84,7 @@ namespace ais
             switch (this.cmbDepartment.Text) {
                 case "Lead service":
                     this.cmbPosition.Items.Add("Director");
-                    this.cmbPosition.Items.Add("Seniour manager");
+                    this.cmbPosition.Items.Add("Senior manager");
                     this.cmbPosition.Items.Add("Manager");
 
                     break;
@@ -109,14 +109,14 @@ namespace ais
 
                 case "Production":
                     this.cmbPosition.Items.Add("Director");
-                    this.cmbPosition.Items.Add("Seniour manager");
+                    this.cmbPosition.Items.Add("Senior manager");
                     this.cmbPosition.Items.Add("Manager");
 
                     break;
 
                 case "Courier":
                     this.cmbPosition.Items.Add("Director");
-                    this.cmbPosition.Items.Add("Seniour manager");
+                    this.cmbPosition.Items.Add("Senior manager");
                     this.cmbPosition.Items.Add("Manager");
                     this.cmbPosition.Items.Add("Courier");
 

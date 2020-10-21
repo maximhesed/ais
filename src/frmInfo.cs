@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace ais
+namespace Ais
 {
     public partial class frmInfo : Form
     {
